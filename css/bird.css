@@ -1,0 +1,80 @@
+*{margin:0;padding:0}
+	.bg{
+		width: 290px;
+		height: 500px;
+		background: url(../images/bk.png) -290px 0px no-repeat;
+	}
+
+	.ball{
+		width: 34px;
+		height:26px;
+
+		background:url("../images/bk.png")-230px -761px no-repeat;
+		position: absolute;
+		left:70px;
+		bottom:400px;
+	}
+	.score{
+		position: absolute;
+		left:150px;
+		bottom:400px;
+		width:30px;
+		height:60px;
+		color:orange;
+		font-size:60px;
+		text-align:center;
+	}
+	.out{
+		width:290px;
+		overflow: hidden;
+
+
+		height: 500px;
+		position: relative;
+	}
+	.outWall{
+		width:288px;
+		height: 500px;
+		position: relative;
+		margin:0 auto;
+		overflow:hidden;
+	}
+	.cylider{
+		width: 30px;
+
+		position: absolute;
+	}
+	.oneT{
+		height: 110px;
+		top:0;
+		background:url(../images/pipe.png)  no-repeat;
+
+	}
+	.oneB{
+		height: 260px;
+		bottom:0px;
+		background:url(../images/pipe.png)  no-repeat;
+
+	}
+	.twoT{
+		height: 110px;
+		top:0;
+		background:url(../images/pipe.png)  no-repeat;
+
+	}
+	.twoB{
+		height: 260px;
+		bottom:0px;
+		background:url(../images/pipe.png) no-repeat;
+
+	}
+	.outCylider{
+		left:450px;
+		height: 500px;
+		position: absolute;
+	}
+	.outCylider2{
+		left:680px;
+		height: 500px;
+		position: absolute;
+	}
